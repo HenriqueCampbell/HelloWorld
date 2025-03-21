@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <cs50.h>
+
+string numero;
+
+int main (void)
+
+{
+
+numero = get_string("Qual seu número de telefone?");
+
+printf("Seu número é %s\n", numero);
+
+}
